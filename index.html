@@ -10,7 +10,13 @@
   <body>
     <img src="img/money.png" alt="" class="money-img" />
     <h1>Exchange Rate Calculator</h1>
-    <p>Choose the currency and the amounts to get the exchange rate</p>
+    <p>
+      Choose the currency and the amounts to get the exchange rate.
+      <span class="note"
+        >NOTE: This app will only available for 14 days from now on because I
+        don't have money to pay server bills 🙂</span
+      >
+    </p>
 
     <div class="container">
       <div class="currency">
@@ -18,6 +24,7 @@
           <option value="AED">AED</option>
           <option value="ARS">ARS</option>
           <option value="AUD">AUD</option>
+          <option value="BDT">BDT</option>
           <option value="BGN">BGN</option>
           <option value="BRL">BRL</option>
           <option value="BSD">BSD</option>
@@ -72,9 +79,7 @@
       </div>
 
       <div class="swap-rate-container">
-        <button class="btn" id="swap">
-          Swap
-        </button>
+        <button class="btn" id="swap">Swap</button>
         <div class="rate" id="rate"></div>
       </div>
 
@@ -83,6 +88,7 @@
           <option value="AED">AED</option>
           <option value="ARS">ARS</option>
           <option value="AUD">AUD</option>
+          <option value="BDT" selected>BDT</option>
           <option value="BGN">BGN</option>
           <option value="BRL">BRL</option>
           <option value="BSD">BSD</option>
@@ -95,7 +101,7 @@
           <option value="DKK">DKK</option>
           <option value="DOP">DOP</option>
           <option value="EGP">EGP</option>
-          <option value="EUR" selected>EUR</option>
+          <option value="EUR">EUR</option>
           <option value="FJD">FJD</option>
           <option value="GBP">GBP</option>
           <option value="GTQ">GTQ</option>
